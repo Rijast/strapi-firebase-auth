@@ -118,7 +118,8 @@ export default ({ strapi }: Params) => ({
     const { data: user, error } = await promiseHandler(
       strapi.db.query("plugin::users-permissions.user").findOne({
         where: {
-          firebaseUserID: decodedToken.uid,
+          // firebaseUserID: decodedToken.uid,
+          username: decodedToken.phone_number, // update here
         },
       }),
     );

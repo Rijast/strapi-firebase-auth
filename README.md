@@ -1,5 +1,5 @@
+# Forked from https://www.npmjs.com/package/@swensonhe/strapi-plugin-firebase-auth)
 # Strapi Plugin Firebase Authentication
-
 Welcome to the Strapi plugin for Firebase Authentication! This plugin seamlessly integrates Firebase Authentication with
 your Strapi Headless CMS, allowing you to manage and authenticate Firebase users directly from the Strapi moderation
 panel. This guide will take you through the installation and configuration process and provide information on how to use
